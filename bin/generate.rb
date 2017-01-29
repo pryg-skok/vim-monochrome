@@ -6,6 +6,10 @@
 #   http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
 #
 
+def transparent
+  { gui: 'none', cterm: 'none' }
+end
+
 def white
   { gui: 'White', cterm: 15  }
 end
@@ -82,39 +86,40 @@ let g:colors_name = 'monochrome'
 EOS
 
 # Basic colors.
-hi :Normal
-hi :Cursor, fg: black, bg: lgray
+hi :NonText, bg: transparent
+hi :Normal, bg: transparent 
+hi :Cursor, fg: black, bg: transparent 
 
 # Cursor line.
 hi :CursorLine, bg: bgray
 hi :CursorLineNr, fg: white, bold: true
 
 # Color column.
-hi :ColorColumn, bg: bgray
+hi :ColorColumn, bg: transparent 
 
 # Folding.
-hi :FoldColumn, fg: dgray
+hi :FoldColumn, fg: cgray, bg: transparent
 hi :Folded
 
 # Line numbers gutter.
-hi :LineNr, fg: dgray
+hi :LineNr, fg: dgray, bg: transparent
 
 # Main groups for programming langages.
-hi :Statement, fg: white, bold: true
-hi :PreProc, fg: white, bold: true
-hi :String, fg: sblue
-hi :Comment, fg: cgray
-hi :Constant
-hi :Type, fg: white, bold: true
-hi :Function, fg: white
-hi :Identifier
-hi :Special
+hi :Statement, fg: white, bold: true, bg: transparent
+hi :PreProc, fg: white, bold: true, bg: transparent
+hi :String, fg: sblue, bg: transparent
+hi :Comment, fg: cgray, bg: transparent
+hi :Constant, bg: transparent
+hi :Type, fg: white, bold: true, bg: transparent
+hi :Function, fg: white, bg: transparent
+hi :Identifier, bg: transparent
+hi :Special, bg: transparent
 hi :MatchParen, fg: black, bg: lgray
 
 # Ruby tweaks.
 hi :rubyConstant
 hi :rubySharpBang, fg: cgray
-hi :rubyStringDelimiter, fg: sblue
+hi :rubyStringDelimiter, fg: sblue, bg: transparent
 hi :rubyStringEscape, fg: sblue
 hi :rubyRegexpEscape, fg: sblue
 hi :rubyRegexpAnchor, fg: sblue
