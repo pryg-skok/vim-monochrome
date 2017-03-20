@@ -163,6 +163,9 @@ hi :Todo, fg: black, bg: yellow, bold: true
 hi :Pmenu, fg: white, bg: sblue
 hi :PmenuSel, fg: sblue, bg: white
 
+# Status line
+hi :StatusLine, fg: dgray, bg: transparent 
+
 # Help.
 hi :helpSpecial
 hi :helpHyperTextJump, fg: sblue, underline: true
