@@ -171,6 +171,10 @@ hi :helpSpecial
 hi :helpHyperTextJump, fg: sblue, underline: true
 hi :helpNote # linked to Todo
 
+# Ale Syntax Checking
+hi :ALEErrorSign, fg: sblue, bg: transparent
+hi :ALEWarningSign, fg: sblue, bg: transparent
+
 # Vim script.
 hi :vimOption
 hi :vimGroup
