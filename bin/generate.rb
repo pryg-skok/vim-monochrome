@@ -118,7 +118,7 @@ hi :MatchParen, fg: black, bg: lgray
 
 # Ruby tweaks.
 hi :rubyConstant
-hi :rubySharpBang, fg: cgray
+hi :rubySharpBang, fg: lgray, bg: transparent
 hi :rubyStringDelimiter, fg: sblue, bg: transparent
 hi :rubyStringEscape, fg: sblue
 hi :rubyRegexpEscape, fg: sblue
@@ -176,7 +176,7 @@ hi :ALEErrorSign, fg: sblue, bg: transparent
 hi :ALEWarningSign, fg: sblue, bg: transparent
 
 # Vim script.
-hi :vimOption
+hi :vimOption, bg: transparent
 hi :vimGroup
 hi :vimHiClear
 hi :vimHiGroup
@@ -186,5 +186,5 @@ hi :vimHiGuiFgBg
 hi :vimHiCTerm
 hi :vimHiCTermFgBg
 hi :vimSynType
-hi :vimCommentTitle, fg: cgray
+hi :vimCommentTitle, fg: cgray, bg: transparent
 

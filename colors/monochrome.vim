@@ -36,7 +36,7 @@ hi Identifier guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm
 hi Special guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi MatchParen guifg=Black ctermfg=16 guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE
 hi rubyConstant guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
-hi rubySharpBang guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi rubySharpBang guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi rubyStringDelimiter guifg=#778899 ctermfg=67 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi rubyStringEscape guifg=#778899 ctermfg=67 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi rubyRegexpEscape guifg=#778899 ctermfg=67 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
@@ -66,7 +66,7 @@ hi helpHyperTextJump guifg=#778899 ctermfg=67 guibg=Black ctermbg=16 gui=underli
 hi helpNote guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi ALEErrorSign guifg=#778899 ctermfg=67 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi ALEWarningSign guifg=#778899 ctermfg=67 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
-hi vimOption guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi vimOption guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi vimGroup guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi vimHiClear guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi vimHiGroup guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
@@ -76,4 +76,4 @@ hi vimHiGuiFgBg guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cter
 hi vimHiCTerm guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi vimHiCTermFgBg guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi vimSynType guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
-hi vimCommentTitle guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi vimCommentTitle guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
