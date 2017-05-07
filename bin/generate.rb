@@ -145,7 +145,7 @@ hi :Search, fg: white, bg: sblue
 hi :Visual, fg: white, bg: sblue
 
 # Tildes at the bottom of a buffer, etc.
-hi :NonText, fg: dgray
+hi :NonText, fg: cgray
 
 # File browsers.
 hi :Directory, fg: white, bold: true
