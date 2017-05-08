@@ -151,10 +151,10 @@ hi :NonText, fg: cgray
 hi :Directory, fg: white, bold: true
 
 # Markup.
-hi :Title, fg: white, bold: true
-hi :markdownHeadingDelimiter, fg: white, bold: true
-hi :markdownHeadingRule, fg: white, bold: true
-hi :markdownLinkText, fg: sblue, underline: true
+hi :Title, fg: white, bold: true, bg: transparent
+hi :markdownHeadingDelimiter, fg: white, bold: true, bg: transparent
+hi :markdownHeadingRule, fg: white, bold: true, bg: transparent
+hi :markdownLinkText, fg: sblue, underline: true, bg: transparent
 
 # Notes.
 hi :Todo, fg: black, bg: yellow, bold: true
