@@ -146,6 +146,8 @@ hi :Visual, fg: white, bg: sblue
 
 # Tildes at the bottom of a buffer, etc.
 hi :NonText, fg: cgray
+# Tabs in Text
+hi :SpecialKey, fg: cgray, bg: transparent
 
 # File browsers.
 hi :Directory, fg: white, bold: true
