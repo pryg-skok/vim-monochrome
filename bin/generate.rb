@@ -151,6 +151,7 @@ hi :SpecialKey, fg: cgray, bg: transparent
 
 # File browsers.
 hi :Directory, fg: white, bold: true
+hi :netrwDir, fg: white, bg: transparent
 
 # Markup.
 hi :Title, fg: white, bold: true, bg: transparent
