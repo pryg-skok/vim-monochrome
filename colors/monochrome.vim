@@ -53,7 +53,8 @@ hi Search guifg=White ctermfg=15 guibg=#778899 ctermbg=67 gui=NONE cterm=NONE te
 hi Visual guifg=White ctermfg=15 guibg=#778899 ctermbg=67 gui=NONE cterm=NONE term=NONE
 hi NonText guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi SpecialKey guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
-hi Directory guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=bold cterm=bold term=bold
+hi Directory guifg=White ctermfg=15 guibg=none ctermbg=none gui=bold cterm=bold term=bold
+hi WildMenu guifg=White ctermfg=15 guibg=#778899 ctermbg=67 gui=NONE cterm=NONE term=NONE
 hi netrwDir guifg=White ctermfg=15 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi Title guifg=White ctermfg=15 guibg=none ctermbg=none gui=bold cterm=bold term=bold
 hi markdownHeadingDelimiter guifg=White ctermfg=15 guibg=none ctermbg=none gui=bold cterm=bold term=bold
@@ -68,6 +69,15 @@ hi helpHyperTextJump guifg=#778899 ctermfg=67 guibg=Black ctermbg=16 gui=underli
 hi helpNote guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi ALEErrorSign guifg=#778899 ctermfg=67 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi ALEWarningSign guifg=#778899 ctermfg=67 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
+hi Comment guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
+hi GitGutterAdd guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
+hi GitGutterChange guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
+hi GitGutterDelete guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
+hi GitGutterChangeDelete guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
+hi ErrorMsg guifg=White ctermfg=15 guibg=none ctermbg=none gui=underline cterm=underline term=underline
+hi MoreMsg guifg=#778899 ctermfg=67 guibg=none ctermbg=none gui=underline cterm=underline term=underline
+hi Question guifg=White ctermfg=15 guibg=none ctermbg=none gui=bold cterm=bold term=bold
+hi WarningMsg guifg=#778899 ctermfg=67 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi vimOption guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi vimGroup guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi vimHiClear guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE

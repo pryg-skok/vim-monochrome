@@ -150,7 +150,8 @@ hi :NonText, fg: cgray
 hi :SpecialKey, fg: cgray, bg: transparent
 
 # File browsers.
-hi :Directory, fg: white, bold: true
+hi :Directory, fg: white, bg: transparent, bold: true
+hi :WildMenu, fg: white, bg: sblue
 hi :netrwDir, fg: white, bg: transparent
 
 # Markup.
@@ -177,6 +178,19 @@ hi :helpNote # linked to Todo
 # Ale Syntax Checking
 hi :ALEErrorSign, fg: sblue, bg: transparent
 hi :ALEWarningSign, fg: sblue, bg: transparent
+
+# GitGutter
+hi :Comment, fg: cgray, bg: transparent
+hi :GitGutterAdd, fg: cgray, bg: transparent           # an added line
+hi :GitGutterChange, fg: cgray, bg: transparent       # a changed line
+hi :GitGutterDelete, fg: cgray, bg: transparent       # at least one removed line
+hi :GitGutterChangeDelete, fg: cgray, bg: transparent # a changed line followed by at least one removed line
+
+# Vim messages
+hi :ErrorMsg, underline: true, fg: white, bg: transparent
+hi :MoreMsg, underline: true, fg: sblue, bg: transparent
+hi :Question, bold: true, fg: white, bg: transparent
+hi :WarningMsg, fg: sblue, bg: transparent
 
 # Vim script.
 hi :vimOption, bg: transparent
