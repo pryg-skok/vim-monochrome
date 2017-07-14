@@ -160,7 +160,7 @@ hi :markdownHeadingRule, fg: white, bold: true, bg: transparent
 hi :markdownLinkText, fg: sblue, underline: true, bg: transparent
 
 # Notes.
-hi :Todo, fg: black, bg: yellow, bold: true
+hi :Todo, fg: white, bg: transparent, bold: true
 
 # Popup menu.
 hi :Pmenu, fg: white, bg: sblue
