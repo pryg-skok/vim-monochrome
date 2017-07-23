@@ -7,7 +7,7 @@
 #
 
 def transparent
-  { gui: 'none', cterm: 'none' }
+  { gui: 'NONE', cterm: 'NONE' }
 end
 
 def white
