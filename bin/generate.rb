@@ -87,15 +87,15 @@ EOS
 
 # Basic colors.
 hi :NonText, bg: transparent
-hi :Normal, bg: transparent 
-hi :Cursor, fg: black, bg: transparent 
+hi :Normal, bg: transparent
+hi :Cursor, fg: black, bg: transparent
 
 # Cursor line.
-hi :CursorLine, bg: bgray
+hi :CursorLine, bg: bgray, fg: transparent
 hi :CursorLineNr, fg: white, bold: true
 
 # Color column.
-hi :ColorColumn, bg: transparent 
+hi :ColorColumn, bg: transparent
 
 # Folding.
 hi :FoldColumn, fg: cgray, bg: transparent
@@ -168,7 +168,7 @@ hi :Pmenu, fg: white, bg: sblue
 hi :PmenuSel, fg: sblue, bg: white
 
 # Status line
-hi :StatusLine, fg: dgray, bg: transparent 
+hi :StatusLine, fg: dgray, bg: transparent
 
 # Help.
 hi :helpSpecial
