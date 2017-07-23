@@ -150,7 +150,7 @@ hi :NonText, fg: cgray
 hi :SpecialKey, fg: cgray, bg: transparent
 
 # File browsers.
-hi :Directory, fg: white, bg: transparent, bold: true
+hi :Directory, fg: sblue, bg: transparent, bold: true
 hi :WildMenu, fg: white, bg: sblue
 hi :netrwDir, fg: white, bg: transparent
 
