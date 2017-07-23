@@ -42,6 +42,11 @@ def yellow
   { gui: 'Yellow', cterm: 226 }
 end
 
+def orange
+  { gui: '#FF8700', cterm: 208 }
+end
+
+
 def hi(group, options={})
   tokens = []
   tokens << 'hi'
@@ -111,7 +116,7 @@ hi :String, fg: sblue, bg: transparent
 hi :Comment, fg: cgray, bg: transparent
 hi :Constant, bg: transparent
 hi :Type, fg: white, bold: true, bg: transparent
-hi :Function, fg: white, bg: transparent
+hi :Function, fg: orange, bg: transparent
 hi :Identifier, bg: transparent
 hi :Special, bg: transparent
 hi :MatchParen, fg: black, bg: lgray
@@ -161,7 +166,7 @@ hi :markdownHeadingRule, fg: white, bold: true, bg: transparent
 hi :markdownLinkText, fg: sblue, underline: true, bg: transparent
 
 # Notes.
-hi :Todo, fg: white, bg: transparent, bold: true
+hi :Todo, fg: white, bg: dgray, bold: true
 
 # Popup menu.
 hi :Pmenu, fg: white, bg: sblue
