@@ -100,7 +100,7 @@ hi :CursorLine, bg: bgray, fg: transparent
 hi :CursorLineNr, fg: white, bold: true
 
 # Color column.
-hi :ColorColumn, bg: transparent
+hi :ColorColumn, bg: bgray, fg: transparent
 
 # Folding.
 hi :FoldColumn, fg: cgray, bg: transparent

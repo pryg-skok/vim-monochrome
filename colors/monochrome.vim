@@ -21,7 +21,7 @@ hi Normal guifg=LightGray ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Cursor guifg=Black ctermfg=16 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#202020 ctermbg=234 gui=NONE cterm=NONE term=NONE
 hi CursorLineNr guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=bold cterm=bold term=bold
-hi ColorColumn guifg=LightGray ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
+hi ColorColumn guifg=NONE ctermfg=NONE guibg=#202020 ctermbg=234 gui=NONE cterm=NONE term=NONE
 hi FoldColumn guifg=#737373 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi Folded guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi LineNr guifg=DarkGray ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
