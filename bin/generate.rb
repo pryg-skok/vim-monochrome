@@ -112,11 +112,11 @@ hi :LineNr, fg: dgray, bg: transparent
 # Main groups for programming langages.
 hi :Statement, fg: white, bold: true, bg: transparent
 hi :PreProc, fg: white, bold: true, bg: transparent
-hi :String, fg: sblue, bg: transparent
+hi :String, fg: orange, bg: transparent
 hi :Comment, fg: cgray, bg: transparent
 hi :Constant, bg: transparent
 hi :Type, fg: white, bold: true, bg: transparent
-hi :Function, fg: orange, bg: transparent
+hi :Function, fg: sblue, bg: transparent
 hi :Identifier, bg: transparent
 hi :Special, bg: transparent
 hi :MatchParen, fg: black, bg: lgray

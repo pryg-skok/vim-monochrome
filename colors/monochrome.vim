@@ -27,11 +27,11 @@ hi Folded guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE
 hi LineNr guifg=DarkGray ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi Statement guifg=White ctermfg=15 guibg=NONE ctermbg=NONE gui=bold cterm=bold term=bold
 hi PreProc guifg=White ctermfg=15 guibg=NONE ctermbg=NONE gui=bold cterm=bold term=bold
-hi String guifg=#778899 ctermfg=67 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
+hi String guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi Comment guifg=#737373 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi Constant guifg=LightGray ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi Type guifg=White ctermfg=15 guibg=NONE ctermbg=NONE gui=bold cterm=bold term=bold
-hi Function guifg=#FF8700 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
+hi Function guifg=#778899 ctermfg=67 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi Identifier guifg=LightGray ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi Special guifg=LightGray ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi MatchParen guifg=Black ctermfg=16 guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE
